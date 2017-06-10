@@ -8,7 +8,7 @@ font-family: 'Raleway', sans-serif;*/
 .navbar {
   font-family: 'Lato', sans-serif;
   background-color: #F8EEDD;
-  /*box-shadow: 0px 1px 1px #494949;*/
+  box-shadow: 0px 1px 1px #494949;
 }
 
 .navbar a.navbar-brand {
@@ -22,4 +22,50 @@ font-family: 'Raleway', sans-serif;*/
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #494949;
+}
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
+/*  -webkit-filter: blur(1px);     
+  filter: blur(1px); */
+}
+
+/*.content {
+  overflow: auto;
+  position: relative;
+}
+*/
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.btn-success {
+  background-color: #FFA983;
 }
