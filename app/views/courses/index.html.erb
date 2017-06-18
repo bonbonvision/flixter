@@ -1,0 +1,20 @@
+<br />
+
+<div class="booyah-box col-10 offset-1">
+  <h1 class="text-center">Learn Something Today</h1>
+  <hr />
+
+  <% @courses.each do |course| %>
+    <h2 class="course-title"><%= course.title %></h2>
+    <br />
+    <div class="row">
+      <div class="col-sm-10 col-12">
+        <p class="course-description"><%= course.description %></p>
+      </div>
+      <div class="col-sm-2 col-12 text-center float-right">
+        <%= link_to 'Button', '#', class: 'btn btn-primary' %>
+      </div>
+    </div>
+    <br class="clr" />
+  <% end %>
+</div>

@@ -54,12 +54,20 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-variant: small-caps;
+  color: #494949;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #494949;
 }
 
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-variant: small-caps;
+  color: #494949;
 }
 
 p {
@@ -70,31 +78,28 @@ p {
 
 .frosty {
   background: rgba(0, 0, 0, 0.5);
-  color: white;
 }
 
 .frosty h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
   font-variant: small-caps;
+  color: white;
 }
 
 .frosty h2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  color: white;
 }
 
 .btn {
   border-radius: 0;
   border: none;
-  margin-bottom: 15px;
 }
 
 .btn-success {
   background-color: #FFA983;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 15px;
 }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
@@ -158,5 +163,20 @@ p {
 
 .form-control {
   font-family: 'Raleway', sans-serif;
-  color: #494949;
+  /*color: #494949;*/
+  color: #9E9E9E;
+  font-size: 15px;
+}
+
+.course-title {
+  font-size: 25px;
+}
+
+.course-description {
+  color: #9E9E9E;
+  margin: 0;
+}
+
+.clr {
+  clear: both;
 }
