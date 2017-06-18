@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400');
 @import "bootstrap";
+@import "font-awesome";
 
 
 /*font-family: 'Lato', sans-serif;
@@ -16,8 +17,14 @@ font-family: 'Raleway', sans-serif;*/
   font-weight: 300;
   color: #494949;
   font-style: normal;
+  margin-right: 5px;
 }
 
+.fa-music {
+  color: #494949;
+ /* display: inline-block;
+  text-align: center; */
+}
 .navbar a.nav-link {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -137,4 +144,19 @@ p {
     color: #fff;
     background-color: #00b3db;
     border-color: #285e8e;
+}
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+  margin: 10px;
+  font-family: 'Raleway', sans-serif;
+ /* text-transform: capitalize;*/
+}
+
+.form-control {
+  font-family: 'Raleway', sans-serif;
+  color: #494949;
 }
