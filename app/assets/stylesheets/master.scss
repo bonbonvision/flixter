@@ -124,14 +124,14 @@ p {
   margin-top: 20px;
 }
 
-.form-title h1 {
+.booyah-box-title {
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
   color: #494949;
-  letter-spacing: 2px;
-  font-variant: small-caps;
-  font-size: 30px;
+  font-size: 35px;
 }
+
 
 .control-label {
  /* color: #9E9E9E;*/
@@ -168,6 +168,15 @@ p {
   font-size: 15px;
 }
 
+.course-list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #494949;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size: 30px;
+
+}
 .course-title {
   font-size: 25px;
 }
