@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Raleway:300,400');
 @import "bootstrap";
 @import "font-awesome";
 
@@ -176,8 +176,20 @@ p {
   font-size: 30px;
 
 }
-.course-title {
+.course-title a {
   font-size: 25px;
+  color: #494949;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+/*.course-title a:visited {
+  color: #9E9E9E;
+}*/
+
+.course-title a:hover, .course-title a:active {
+  color: #00b3db;
+  text-decoration: none;
 }
 
 .course-description {
