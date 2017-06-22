@@ -5,6 +5,7 @@
     <h1 class="text-center"><%= current_course.title %></h1>
     <hr />
   </div>
+  <%= image_tag current_course.image, class: 'img-fluid' %>
   <%= link_to 'Preview As Student', course_path(current_course), class: 'btn btn-primary float-right' %>
   <br class="clr" />
 

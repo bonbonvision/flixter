@@ -63,3 +63,9 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'font-awesome-rails'
+
+gem 'carrierwave', '~> 1.0'
+
+gem 'figaro'
+
+gem 'fog-aws'
