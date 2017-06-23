@@ -4,7 +4,8 @@
 
 
 /*font-family: 'Lato', sans-serif;
-font-family: 'Raleway', sans-serif;*/
+font-family: 'Raleway', sans-serif;
+colors: green #FFF83D;*/
 
 .navbar {
   font-family: 'Lato', sans-serif;
@@ -119,13 +120,17 @@ p {
   padding-right: 5%;
 }
 
+.hr {
+  color: #DADADA;
+}
+
 .booyah-box {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -moz-box-shadow: 1px 1px 1px 0 #d0d0d0;
+/*  -webkit-box-shadow: 1px 1px 1px 0 #d0d0d0;*/
+/*  box-shadow: 1px 1px 2px 0 #d0d0d0;*/
   background: #fff;
   border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  border-color: #DADADA;
   margin-top: 20px;
 }
 
@@ -205,4 +210,35 @@ p {
 
 .clr {
   clear: both;
+}
+
+/*course detail page*/
+
+.lesson {
+  background-color: #F5F5F5;
+  margin-top: 10px;
+  height: 130px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #DADADA;
+  padding: 20px;
+}
+
+.lesson a {
+  color: #494949;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/*.lesson a:hover {
+  color: #FFF83D;
+  text-decoration: none;
+}
+*/
+.lesson a b {
+  font-weight: 300;
+  font-size: 20px;
 }
