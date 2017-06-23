@@ -5,12 +5,13 @@
     <h1><%= current_lesson.title %></h1>
     <hr />
   </div>
-    <p>
-      <%= current_lesson.subtitle %>
-    </p>
-    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-    <source src="MY_VIDEO.mp4" type='video/mp4'>
-    <source src="MY_VIDEO.webm" type='video/webm'>
+  
+  <p>
+    <%= current_lesson.subtitle %>
+  </p>
+
+  <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" width="auto" height="auto" poster="<%= image_path('black.jpg') %>" data-setup="{}">
+    <source src="<%= current_lesson.video.to_s %>" type='video/mp4'>
     <noscript>
       <p class="vjs-no-js">
         To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -18,6 +19,4 @@
       </p>
     </noscript>
   </video>
-  
-  <%= link_to 'Video', current_lesson.video.to_s %>
 </div>
