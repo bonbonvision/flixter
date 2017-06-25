@@ -11,9 +11,11 @@
     <%= image_tag course.image, class: 'img-fluid' %>
     <div class="row">
       <div class="col-sm-8 col-12">
+      <br />
         <p class="course-description"><%= course.description %></p>
       </div>
       <div class="col-sm-4 col-12 text-center float-right">
+      <br />
         <%= link_to 'More Details', course_path(course), class: 'btn btn-primary' %>
       </div>
     </div>
