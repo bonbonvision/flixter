@@ -67,8 +67,8 @@ h2 {
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-variant: small-caps;
   color: #494949;
+  text-transform: capitalize;
 }
 
 h4 {
@@ -113,6 +113,9 @@ p {
 .btn {
   font-family: 'Raleway', sans-serif;
   border-radius: 0px;
+  border: 1px;
+  transition: all .5s;
+/*  box-shadow: 1px 1px 2px 0 #d0d0d0;*/
 }
 
 .btn-success {
@@ -123,25 +126,34 @@ p {
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
   color: #fff;
-  background-color: #00b3db;
-  border-color: #00b3db;
+  background-color: #FFC1A6;
+  border-color: #FFC1A6;
 }
 
 .btn-primary {
   background-color: #FFA983;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
   border-color: #FFA983;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #00b3db;
-  border-color: #00b3db;
+  background-color: #FFC1A6;
+  border-color: #FFC1A6;
 }
 
-.btn-online-info {
-  border: 2px;
-} 
+.btn-info {
+  background-color: #fff;
+  border-style: solid;
+  border-color: #494949;
+  color: #494949;
+  font-size: 18px;
+}
+
+.btn-info:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #949494;
+  background-color: #fff;
+  border-color: #949494;
+}
 
 
 
@@ -225,22 +237,26 @@ p {
 
 /*course detail page*/
 
-.lesson {
-  background-color: #F5F5F5;
-  margin-top: 10px;
-  height: 130px;
-}
-
 .section {
   border: 1px solid;
   border-color: #DADADA;
   padding: 20px;
 }
 
+.lesson {
+  background-color: #F5F5F5;
+  margin-top: 10px;
+  height: 130px;
+}
+
+.lesson a b {
+  font-weight: 300;
+  font-size: 20px;
+}
+
 .lesson a {
   color: #494949;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
   font-size: 15px;
 }
 
@@ -249,7 +265,56 @@ p {
   text-decoration: none;
 }
 */
-.lesson a b {
-  font-weight: 300;
+
+/*instructor course show*/
+
+
+ul {
+  list-style-type: none;
+}
+
+ul .header h3 {
+  font-size: 25px;
+  position: relative;
+  padding-left: 45px;
+}
+
+ul .header h3:after {
+  content: '\f142';
+  font-family: fontAwesome;
+  position: absolute;
+  left: 15px; 
+  top: 3px; 
+  color: #494949;
+  font-size: 21px;
+}
+
+.section-li {
+  border: 1px solid #ccc;
+  border-color: #DADADA;
+  padding: 20px;
+  font-weight: 100;
+  color: #494949;
+  margin: 20px;
+}
+
+.lessons li {
+  background-color: #F5F5F5;
+  color: #494949;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  padding: 8px;
+}
+
+.lessons li b {
   font-size: 20px;
+  font-weight: 300;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+.col-11.text-center {
+  padding-top: 15px;
 }
