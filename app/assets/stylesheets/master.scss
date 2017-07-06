@@ -19,13 +19,21 @@ colors: green #FFF83D;*/
   color: #494949;
   font-style: normal;
   margin-right: 5px;
+  padding-left: 40px;
+  position: relative;
 }
 
-.fa-music {
+.navbar a.navbar-brand:after {
+  content: '\f001';
+  font-family: fontAwesome;
+  position: absolute;
+  left: 15px; 
+  top: 3px; 
   color: #494949;
- /* display: inline-block;
-  text-align: center; */
+  font-size: 21px;
 }
+
+
 .navbar a.nav-link {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
