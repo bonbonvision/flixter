@@ -22,6 +22,7 @@ body {
   padding: 10px 0px;
   margin-top: 30px;
   box-shadow: 0 0 0 1px #d0d0d0;
+  font-weight: 300;
 }
 
 #footer a {
@@ -32,5 +33,13 @@ body {
 #footer a:hover {
   color: #9E9E9E;
   font-weight: 300;
+  text-decoration: none;
+}
+
+.social-button {
+  margin: 4px;
+}
+
+.social a:hover {
   text-decoration: none;
 }
