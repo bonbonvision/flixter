@@ -39,6 +39,11 @@ colors: green #FFF83D;*/
   font-weight: 300;
   color: #494949;
 }
+
+.navbar-toggler {
+  float: right;
+}
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
