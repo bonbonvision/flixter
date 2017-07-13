@@ -44,6 +44,10 @@ colors: green #FFF83D;*/
   float: right;
 }
 
+/*.navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active { 
+}*/
+
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -55,11 +59,7 @@ colors: green #FFF83D;*/
   filter: blur(1px); */
 }
 
-/*.content {
-  overflow: auto;
-  position: relative;
-}
-*/
+
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
