@@ -105,6 +105,11 @@ p {
   color: #494949;
 }
 
+.log-in a {
+  font-family: 'Raleway', sans-serif;
+  color: #9E9E9E;
+}
+
 .hr {
   color: #DADADA;
 }
@@ -115,6 +120,7 @@ p {
 
 .frosty {
   background: rgba(0, 0, 0, 0.5);
+  overflow: auto;
 }
 
 .frosty h1 {
@@ -338,6 +344,11 @@ p.student-show {
   font-weight: 300;
 }
 
+.center-block {
+  display: table;
+  margin: 0 auto;
+}
+
 /*instructor course show*/
 
 
@@ -359,6 +370,10 @@ ul .header h3:after {
   top: 3px; 
   color: #494949;
   font-size: 21px;
+}
+
+.sections {
+  padding-left: 0px;
 }
 
 .section-li {
@@ -415,3 +430,12 @@ ul .header h3:after {
 }
 */
 
+/*lesson show page*/
+
+.lesson-subtitle.text-center {
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  color: #9E9E9E;
+  font-weight: 300;
+  text-transform: capitalize;
+}
