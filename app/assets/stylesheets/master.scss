@@ -44,6 +44,14 @@ colors: green #FFF83D;*/
   float: right;
 }
 
+.button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #494949;
+  color: #494949;
+}
+
+
 /*.navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active { 
 }*/
 
@@ -67,7 +75,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-variant: small-caps;
+  text-transform: capitalize;
   color: #494949;
 }
 
@@ -89,6 +97,7 @@ h4 {
   color: #9E9E9E;
   font-weight: 300;
   font-size: 18px;
+  text-transform: capitalize;
 }
 
 p {
@@ -98,6 +107,10 @@ p {
 
 .hr {
   color: #DADADA;
+}
+
+.verticalLine {
+  border-left: 1px solid #DADADA;
 }
 
 .frosty {
@@ -119,6 +132,7 @@ p {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  height: 200px;
 }
 
 /*button styles */
@@ -141,17 +155,32 @@ p {
   color: #fff;
   background-color: #FFC1A6;
   border-color: #FFC1A6;
+  outline: 0;
 }
+
+button:focus {outline:0 !important;}
 
 .btn-primary {
   background-color: #FFA983;
   border-color: #FFA983;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #FFC1A6;
   border-color: #FFC1A6;
+  outline: 0;
+}
+
+.btn.btn-primary.btn-lesson:focus {
+  color: #fff;
+  background-color: #FFC1A6;
+  border-color: #FFC1A6;
+  outline: 0;
+}
+
+.btn.btn-primary.btn-lesson:focus {
+  outline: 0 !important;
 }
 
 .btn-info {
@@ -167,7 +196,6 @@ p {
   background-color: #fff;
   border-color: #949494;
 }
-
 
 
 /*booyah-box style*/
@@ -215,6 +243,10 @@ p {
   font-size: 15px;
 }
 
+
+/*course index*/
+
+
 .course-list {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -227,28 +259,29 @@ p {
   font-size: 25px;
   color: #494949;
   font-weight: 400;
-  font-variant: small-caps;
+  text-transform: capitalize;
 }
 
-/*.course-title a:visited {
-  color: #9E9E9E;
-}*/
 
 .course-title a:hover, .course-title a:active {
   color: #00b3db;
   text-decoration: none;
 }
 
+.course-info {
+  padding-left: 30px;
+}
 .course-description {
   color: #9E9E9E;
   margin: 0;
 }
 
+
 .clr {
   clear: both;
 }
 
-/*course detail page*/
+/*student course show*/
 
 .section {
   border: 1px solid;
@@ -260,24 +293,50 @@ p {
   background-color: #F5F5F5;
   margin-top: 10px;
   height: 130px;
+  padding-top: 15px;
 }
 
 .lesson a b {
   font-weight: 300;
   font-size: 20px;
-}
-
-.lesson a {
   color: #494949;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  text-transform: capitalize;
 }
 
-/*.lesson a:hover {
-  color: #FFF83D;
-  text-decoration: none;
+.lesson h4 {
+  font-size: 15px;
+  padding-top: 3px;
 }
-*/
+
+
+p.student-show {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.badge.badge-info {
+  background: #00b3db;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 0px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.badge.badge-default {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 0px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.button.stripe-button {
+  font-family: 'Raleway', sans-serif;
+  border-radius: 0px;
+  font-weight: 300;
+}
 
 /*instructor course show*/
 
@@ -319,13 +378,28 @@ ul .header h3:after {
   padding: 8px;
 }
 
-.lessons li b {
-  font-size: 20px;
-  font-weight: 300;
+.lessons a b h4:hover {
+  color: #00b3db;
+  text-decoration: none;
 }
 
-.lessons li p {
+.lessons li b {
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #494949;
+  text-transform: capitalize;
+}
+
+.lessons li h4 {
   margin: 0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.lessons li h4:hover {
+  color: #00b3db;
+  text-decoration: none;
 }
 
 .btn-primary.btn-lesson {
@@ -335,3 +409,9 @@ ul .header h3:after {
 .col-11.text-center {
   padding-top: 15px;
 }
+
+/*.lesson_video {
+  padding-right: 5px;
+}
+*/
+
